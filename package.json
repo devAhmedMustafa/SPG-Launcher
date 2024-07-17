@@ -1,0 +1,26 @@
+{
+  "name": "sp-launcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "start:watch": "npx electronmon --trace-warnings ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "electron-dl": "^4.0.0",
+    "googleapis": "^137.1.0",
+    "node-stream-zip": "^1.15.0",
+    "node-unrar-js": "^2.0.2",
+    "unzipper": "^0.11.5",
+    "zlib": "^1.0.5"
+  }
+}

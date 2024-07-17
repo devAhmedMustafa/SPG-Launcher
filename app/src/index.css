@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    color: white;
+    font-family: "Raleway";
+}
+
+body{
+    background-color: #0d0d0d;
+    overflow-x: hidden;
+}
+
+#titleBar{
+    -webkit-app-region: drag;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #3f3f3f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1f1f1f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #131313;
+}
